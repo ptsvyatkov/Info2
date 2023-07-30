@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=HexInterface
+comment1.params=engine
+comment1.target=HexInterface(CalcEngine)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ HexInterface\n
+comment2.params=
+comment2.target=void\ makeFrame()
+comment3.params=event
+comment3.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment3.text=public\ void\ actionPerformed(ActionEvent\ event){\n\ \ \ \ \ \ \ \ super.actionPerformed(event);\n\ \ \ \ \ \ \ \ String\ command\ \=\ event.getActionCommand();\n\n\ \ \ \ \ \ \ \ if(command.equals("A")\ ||\n\ \ \ \ \ \ \ \ \ \ \ command.equals("B")\ ||\n\ \ \ \ \ \ \ \ \ \ \ command.equals("C")\ ||\n\ \ \ \ \ \ \ \ \ \ \ command.equals("D")\ ||\n\ \ \ \ \ \ \ \ \ \ \ command.equals("E")\ ||\n\ \ \ \ \ \ \ \ \ \ \ command.equals("F"))\ {\n\ \ \ \ \ \ \ \ \ \ \ \ //int\ letter\ \=\ (int)\ (command-55);\n\ \ \ \ \ \ \ \ \ \ \ //int\ letter\ \=\ Integer.parseInt(command);\n\ \ \ \ \ \ \ \ \ \ \ //int\ letter\ \=\ command;\n\ \ \ \ \ \ \ \ \ \ \ //calc.numberPressed(convert());\n\ \ \ \ \ \ \ \ }\n}
+comment4.params=bPressed
+comment4.target=int\ convert(java.lang.String)
+numComments=5

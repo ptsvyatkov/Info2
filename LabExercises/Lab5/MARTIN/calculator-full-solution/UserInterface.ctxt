@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=UserInterface
+comment0.text=\n\ A\ graphical\ user\ interface\ for\ the\ calculator.\ No\ calculation\ is\ being\n\ done\ here.\ This\ class\ is\ responsible\ just\ for\ putting\ up\ the\ display\ on\ \n\ screen.\ It\ then\ refers\ to\ the\ "CalcEngine"\ to\ do\ all\ the\ real\ work.\n\ \n\ @author\ David\ J.\ Barnes\ and\ Michael\ Kolling\n\ @version\ 2008.03.30\n
+comment1.params=engine
+comment1.target=UserInterface(CalcEngine)
+comment1.text=\n\ Create\ a\ user\ interface.\n\ @param\ engine\ The\ calculator\ engine.\n
+comment2.params=visible
+comment2.target=void\ setVisible(boolean)
+comment2.text=\n\ Set\ the\ visibility\ of\ the\ interface.\n\ @param\ visible\ true\ if\ the\ interface\ is\ to\ be\ made\ visible,\ false\ otherwise.\n
+comment3.params=
+comment3.target=void\ makeFrame()
+comment3.text=\n\ Make\ the\ frame\ for\ the\ user\ interface.\n
+comment4.params=panel\ buttonText
+comment4.target=void\ addButton(java.awt.Container,\ java.lang.String)
+comment4.text=\n\ Add\ a\ button\ to\ the\ button\ panel.\n\ @param\ panel\ The\ panel\ to\ receive\ the\ button.\n\ @param\ buttonText\ The\ text\ for\ the\ button.\n
+comment5.params=event
+comment5.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment5.text=\n\ An\ interface\ action\ has\ been\ performed.\n\ Find\ out\ what\ it\ was\ and\ handle\ it.\n\ @param\ event\ The\ event\ that\ has\ occured.\n
+comment6.params=
+comment6.target=void\ switchDecHex()
+comment7.params=
+comment7.target=void\ redisplay()
+comment7.text=protected\ void\ redisplay()\n\ \ \ \ {\ \ \ if(decHexSwitch){\n\ \ \ \ \ \ \ \ char\ hex\ \=\ (char)(calc.getDisplayValue()+55);\n\ \ \ \ \ \ \ \ display.setText(""\ +\ hex);\n\ \ \ \ }\ else\ {\n\ \ \ \ \ \ \ \ display.setText(""\ +\ calc.getDisplayValue());\n\ \ \ \ }\n}
+comment8.params=
+comment8.target=void\ showInfo()
+comment8.text=\n\ Toggle\ the\ info\ display\ in\ the\ calculator's\ status\ area\ between\ the\n\ author\ and\ version\ information.\n
+numComments=9
