@@ -12,4 +12,4 @@ Maximum Contiguous Subsequence Sum, Probabilistic Algorithms, Unicode
 Can be found here: https://people.f4.htw-berlin.de/~weberwu/info2/schedule.shtml
 
 ### Lab exercises and reports
-In the /Lab Exercises folder.
+In the /LabExercises folder, the Java source code for the exercises and the written lab reports (in PDF) to those can be found. 
