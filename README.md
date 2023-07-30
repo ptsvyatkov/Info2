@@ -1,6 +1,6 @@
 # Info2
 Introduction to algorithms and data structures course - Winter Semester 2019/2020. <br>
-Informatics 2 course at HTW Berlin taught by Prof. Dr. Debora Weber-Wulff.
+Informatics 2 course at HTW Berlin taught by Prof. Dr. Debora Weber-Wulff. <br>
 Course introduction: https://people.f4.htw-berlin.de/~weberwu/info2/
 
 ### Relevant topics and coursework through the semester 
