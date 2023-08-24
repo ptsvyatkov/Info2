@@ -10,7 +10,7 @@ Graph Algorithms, Quadtrees Nearest Neighbor, Branch and Bound, String Searching
 Maximum Contiguous Subsequence Sum, Probabilistic Algorithms, Unicode
 
 ### Lab exercises and reports
-In the /LabExercises folder, the Java source code for the exercises and the written lab reports (in PDF) to those can be found. 
+In the LabExercises folder, the written PDF lab reports with tasks and explanation given can be found. Java source code is available in the Appendix. 
 
 ### Course schedule
 Can be found here: https://people.f4.htw-berlin.de/~weberwu/info2/schedule.shtml
